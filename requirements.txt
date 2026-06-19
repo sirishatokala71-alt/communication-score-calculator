@@ -1,0 +1,11 @@
+# Core dependency for audio transcription
+openai-whisper>=20231117
+
+# Fallback for audio duration detection if whisper segments are unreliable
+librosa>=0.10.0
+
+# Note: openai-whisper also requires ffmpeg to be installed on your system
+# (not a pip package). On most systems:
+#   macOS:   brew install ffmpeg
+#   Ubuntu:  sudo apt install ffmpeg
+#   Windows: https://ffmpeg.org/download.html
